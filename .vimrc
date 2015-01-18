@@ -21,3 +21,9 @@ endif
     filetype plugin indent on     " required!
     filetype indent on
     syntax on
+
+
+"
+set number
+set showmatch
+
