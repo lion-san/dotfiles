@@ -17,6 +17,33 @@ endif
     NeoBundle 'jpalardy/vim-slime'
     NeoBundle 'scrooloose/syntastic'
     ""NeoBundle 'https://bitbucket.org/kovisoft/slimv'
+
+    " solarized カラースキーム
+    NeoBundle 'altercation/vim-colors-solarized'
+    " mustang カラースキーム
+    NeoBundle 'croaker/mustang-vim'
+    " wombat カラースキーム
+    NeoBundle 'jeffreyiacono/vim-colors-wombat'
+    " jellybeans カラースキーム
+    NeoBundle 'nanotech/jellybeans.vim'
+    " lucius カラースキーム
+    NeoBundle 'vim-scripts/Lucius'
+    " zenburn カラースキーム
+    NeoBundle 'vim-scripts/Zenburn'
+    " mrkn256 カラースキーム
+    NeoBundle 'mrkn/mrkn256.vim'
+    " railscasts カラースキーム
+    NeoBundle 'jpo/vim-railscasts-theme'
+    " pyte カラースキーム
+    NeoBundle 'therubymug/vim-pyte'
+    " molokai カラースキーム
+    NeoBundle 'tomasr/molokai'
+    
+    " カラースキーム一覧表示に Unite.vim を使う
+    NeoBundle 'Shougo/unite.vim'
+    NeoBundle 'ujihisa/unite-colorscheme'
+
+    colorscheme desert
     
     filetype plugin indent on     " required!
     filetype indent on
@@ -27,3 +54,4 @@ endif
 set number
 set showmatch
 
+set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
