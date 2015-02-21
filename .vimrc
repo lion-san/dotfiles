@@ -55,3 +55,8 @@ set number
 set showmatch
 
 set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
+
+set tabstop=2
+set autoindent
+set expandtab
+set shiftwidth=2
